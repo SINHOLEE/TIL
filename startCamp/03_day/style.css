@@ -1,0 +1,19 @@
+<style>
+/* 요소선택자 */
+    h2 {
+        color:cornflowerblue;
+    }
+/* # == id 선택자 */
+    #description {
+        background-color: rgb(134, 9, 9)
+    }
+/* . == 클래스 선택자 */
+    .list-item {
+        font-size: 20px
+    }
+
+/* ul 태그 안에 있는 li태그를 가져와 */
+    ul li {
+        background-color: bisque
+    }
+</style>
