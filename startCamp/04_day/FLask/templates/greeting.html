@@ -1,0 +1,22 @@
+<!-- 느낌표 + tap 하면 html 기본 양식 완성 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>안녕하세요 ㅎㅎㅎ </h1>
+
+    {% if name == 'IU' %}
+        <h2>{{name}}님 보고싶었어요 ㅠㅠㅠㅠㅠ 사랑해요
+        </h2>    
+    {% else %}
+        <h2>{{name}}  어 안녕
+        </h2>
+    {% endif %}
+</body>
+</html>
