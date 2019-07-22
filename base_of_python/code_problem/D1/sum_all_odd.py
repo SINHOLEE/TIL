@@ -39,5 +39,5 @@ for i in range(len(list_input)):
            
 
 for i in range(len(list_input)):
-    result = sum([x for x in list_input[i] if x % 2 == 1])
+    result = max(list_input[i])
     print(f'#{i+1} {result}')
